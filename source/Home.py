@@ -4,7 +4,8 @@ st.title("Airline Data Dashboard")
 
 PAGES = {
     "Data Exploration": "page1",
-    "Visualizations": "page2"
+    "Flight Delays": "page2",
+    "Flight Cancellations": "page3"
 }
 
 st.sidebar.title("Navigation")
