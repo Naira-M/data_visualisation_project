@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import missingno as msno
 
+
 @st.cache_data
 def load_data():
     airlines = pd.read_csv("data/airlines.csv")
